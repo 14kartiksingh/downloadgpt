@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coderz Store | Curated Downloads via Telegram</title>
+  <meta name="description" content="MisterCoderz Store - Games, mods, tools, and emulators delivered via Telegram. Organized for easy access.">
+  <meta name="author" content="MisterCoderz">
+  <link rel="canonical" href="https://mistercoderz.store">
+  <meta property="og:title" content="Coderz Store">
+  <meta property="og:description" content="Curated downloads delivered via Telegram.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mistercoderz.store">
+  <meta name="twitter:card" content="summary">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+  <style>
+    body {
+      font-family: 'Inter', Arial, sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Header -->
+  <header class="border-b border-gray-200 py-3">
+    <div class="max-w-4xl mx-auto px-4 flex items-center justify-between">
+      <a href="/" class="font-semibold text-gray-800">Coderz Store</a>
+      <nav class="flex items-center gap-6">
+        <a href="/" class="text-sm text-gray-800 hover:underline">Home</a>
+        <a href="#categories" class="text-sm text-gray-800 hover:underline">Categories</a>
+        <a href="https://t.me/mistercoderz" target="_blank" rel="noopener noreferrer" class="text-sm text-gray-800 hover:underline">Telegram</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="py-12 border-b border-gray-200">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h1 class="text-2xl font-semibold text-gray-800">Coderz Store</h1>
+      <p class="mt-2 text-gray-800">Curated downloads delivered via Telegram.</p>
+      <p class="mt-2 text-sm text-gray-500">Games, mods, tools, and emulators organized for easy access.</p>
+      <div class="mt-6">
+        <p class="mt-2 text-sm text-gray-500">Join Telegram for Updates.</p>
+        <a href="https://t.me/mistercoderz" target="_blank" rel="noopener noreferrer" class="inline-block px-4 py-2 border border-gray-300 bg-white text-gray-800 text-sm hover:bg-gray-100">Join Telegram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ad Slot 1 -->
+  <div class="max-w-4xl mx-auto px-4 py-6">
+    <div class="border border-gray-300 p-6 text-center bg-white">
+      <p class="text-xs text-gray-500 mb-1">Advertisement</p>
+      <p class="text-sm text-gray-500">No ads Available right now</p>
+    </div>
+  </div>
+
+  <!-- Categories Section -->
+  <section id="categories" class="py-8">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-lg font-semibold text-gray-800 mb-6">Categories</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="border border-gray-200 p-4 bg-white">
+          <!-- <div class="w-full h-20 bg-gray-100 mb-3"></div> -->
+          <p class="text-sm font-medium text-center text-gray-800">Games</p>
+        </div>
+        <div class="border border-gray-200 p-4 bg-white">
+          <!-- <div class="w-full h-20 bg-gray-100 mb-3"></div> -->
+          <p class="text-sm font-medium text-gray-800 text-center">Mods</p>
+        </div>
+        <div class="border border-gray-200 p-4 bg-white">
+          <!-- <div class="w-full h-20 bg-gray-100 mb-3"></div> -->
+          <p class="text-sm font-medium text-gray-800 text-center">Tools</p>
+        </div>
+        <div class="border border-gray-200 p-4 bg-white">
+          <!-- <div class="w-full h-20 bg-gray-100 mb-3"></div> -->
+          <p class="text-sm font-medium text-gray-800 text-center">Emulators</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Items Section -->
+  <section class="py-8">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-lg font-semibold text-gray-800 mb-6">All Items</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4" id="items-grid">
+        <!-- Items will be inserted here by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Disclaimer -->
+  <section class="py-6">
+    <div class="max-w-4xl mx-auto px-4">
+      <p class="text-xs text-gray-500 text-center">Files are distributed via third-party platforms. MisterCoderz does not host files directly.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-200 mt-12 py-8">
+    <div class="max-w-4xl mx-auto px-4">
+      <!-- Footer Ad -->
+      <div class="border border-gray-300 p-6 text-center bg-white mb-6">
+        <p class="text-xs text-gray-500 mb-1">Advertisement</p>
+        <p class="text-sm text-gray-500">No ads Available right now</p>
+      </div>
+      <!-- Links -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 text-sm">
+        <span class="text-gray-500" id="copyright"></span>
+        <a href="https://t.me/mistercoderz" target="_blank" rel="noopener noreferrer" class="text-gray-800 hover:underline">Telegram</a>
+        <a href="https://mistercoderz.store" target="_blank" rel="noopener noreferrer" class="text-gray-800 hover:underline">mistercoderz.store</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Items data
+    const items = [
+      
+  {
+    id: 1,
+    name: "Open-World Action Game (Classic)",
+    description: "Story-based open world action game for PC",
+    platform: "PC",
+    image: "images/1.jfif",
+    telegramLink: "https://t.me/mistercoderz"
+  },
+  {
+    id: 2,
+    name: "PSP Emulator App",
+    description: "Play portable console games on Android devices",
+    platform: "Android",
+    image: "images/2.jfif",
+    telegramLink: "https://t.me/mistercoderz"
+  },
+  {
+    id: 3,
+    name: "File Archiver Utility",
+    description: "Compress and extract files on Windows systems",
+    platform: "PC",
+    image: "images/3.png",
+    telegramLink: "https://t.me/mistercoderz"
+  },
+  {
+    id: 4,
+    name: "App Utility Tool",
+    description: "Advanced utility tool for Android applications",
+    platform: "Android",
+    image: "images/4.jfif",
+    telegramLink: "https://t.me/mistercoderz"
+  },
+  {
+    id: 5,
+    name: "Console Emulator Tool",
+    description: "Emulator for classic home console systems",
+    platform: "PC",
+    image: "images/5.jfif",
+    telegramLink: "https://t.me/mistercoderz"
+  },
+  {
+    id: 6,
+    name: "Download Manager Software",
+    description: "Tool to manage and speed up file downloads",
+    platform: "PC",
+    image: "images/6.jfif",
+    telegramLink: "https://t.me/mistercoderz"
+  },
+  {
+    id: 7,
+    name: "Sandbox Mobile Game",
+    description: "Creative sandbox-style game for mobile devices",
+    platform: "Android",
+    image: "images/7.jfif",
+    telegramLink: "https://t.me/mistercoderz"
+  },
+  {
+    id: 8,
+    name: "Multi-System Emulator Frontend",
+    description: "Unified interface for running multiple emulators",
+    platform: "PC",
+    image: "images/8.jfif",
+    telegramLink: "https://t.me/mistercoderz"
+  },
+  {
+    id: 9,
+    name: "Audio Editing Software",
+    description: "Digital audio workstation for music production",
+    platform: "PC",
+    image: "images/game1.png",
+    telegramLink: "https://t.me/mistercoderz"
+  },
+  {
+    id: 10,
+    name: "Game Utility Tool",
+    description: "Advanced tool for game-related configurations",
+    platform: "Android",
+    image: "images/game1.png",
+    telegramLink: "https://t.me/mistercoderz"
+  },
+  {
+    id: 11,
+    name: "Handheld Console Emulator",
+    description: "Emulator for portable gaming console systems",
+    platform: "PC",
+    image: "images/game1.png",
+    telegramLink: "https://t.me/mistercoderz"
+  },
+  {
+    id: 12,
+    name: "Music Streaming App",
+    description: "Mobile app for online music streaming",
+    platform: "Android",
+    image: "images/game1.png",
+    telegramLink: "https://t.me/mistercoderz"
+  }
+];
+
+
+    // Render items with ad slots
+    function renderItems() {
+      const grid = document.getElementById('items-grid');
+      let html = '';
+
+      items.forEach((item, index) => {
+        // Add ad slot after every 8 items
+        if (index > 0 && index % 6 === 0) {
+          html += `
+            <div class="col-span-1 sm:col-span-2 md:col-span-3 border-2 border-dashed border-gray-300 p-6 text-center bg-gray-50 my-4">
+              <p class="text-xs text-gray-500 mb-1">Advertisement</p>
+              <p class="text-sm text-gray-500">No ads Available right now</p>
+            </div>
+          `;
+        }
+
+        html += `
+  <div class="border border-gray-200 p-4 bg-white">
+    
+    <!-- Image area (shows image if present, grey box if not) -->
+    <div class="w-full h-28 bg-gray-100 mb-3 overflow-hidden flex items-center justify-center">
+      <img
+        src="${item.image || ''}"
+        alt="${item.name}"  
+        class="w-full h-full object-cover block"
+        onerror="this.style.display='none'"
+      >
+    </div>
+
+    <h3 class="text-sm font-medium text-gray-800">${item.name}</h3>
+    <p class="text-xs text-gray-500 mt-1">${item.description}</p>
+    <span class="inline-block mt-2 text-xs px-2 py-1 bg-gray-100 text-gray-600">${item.platform}</span>
+
+    <div class="mt-3">
+      <a href="${item.telegramLink}" target="_blank" rel="noopener noreferrer"
+        class="inline-block w-full text-center px-3 py-2 border border-gray-300 bg-white text-gray-800 text-xs hover:bg-gray-100">
+        Get via Telegram
+      </a>
+    </div>
+
+  </div>
+`;
+
+      });
+
+      grid.innerHTML = html;
+    }
+
+    // Set copyright year
+    document.getElementById('copyright').textContent = `© ${new Date().getFullYear()} MisterCoderz`;
+
+    // Initialize
+    renderItems();
+  </script>
+</body>
+</html>
